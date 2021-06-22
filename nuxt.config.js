@@ -14,14 +14,14 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ["~/scss/main.scss"],
+  css: ["~/scss/main.scss", "~/plugins/bootstrap-5.0.2-dist/css/bootstrap.min.css"],
 
   styleResources: {
     scss: ["~/scss/*.scss"],
   },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [{ src: "~/plugins/bootstrap.js", mode: "client" }],
+  plugins: [{ src: "~/plugins/bootstrap-5.0.2-dist/js/bootstrap.min.js", mode: "client" }],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
